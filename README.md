@@ -6,7 +6,7 @@ orders page -> canceling the first order.
 
 I have implemented **Page Object Model(POM)** design pattern.
 
-It includes testng assertions,positive & negative test cases.
+It includes testng **assertions,positive & negative test cases.**
 
 All the variables were read from **JSON** file using **Data Provider Annotation**.
 
