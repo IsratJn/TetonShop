@@ -4,4 +4,4 @@ It contains and complete workflow of a new user from landing on website -> login
 information(home delivery) -> creating new address -> go to payment method page(COD) -> place order -> go to All Orders page ->getting the first orderIdNo -> go to edit orders page 
 -> canceling the first order.
 
-I have implemented #Page Object Model.
+I have implemented **Page Object Model(POM)**
