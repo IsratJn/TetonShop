@@ -5,11 +5,14 @@ information(home delivery) -> creating new address -> go to payment method page(
 -> canceling the first order.
 
 I have implemented **Page Object Model(POM)** design pattern.
-It includes testng assertions.
+
+It includes testng assertions,positive & negative test cases.
+
 All the variables were read from **JSON** file using **Data Provider Annotation**.
+
 It also includes **Report**
 
-Report Screenshots:
+**Report Screenshots:**
 
 ![Test Report](https://user-images.githubusercontent.com/42838747/236707811-32ad40e4-a27f-42c3-943c-a7d72ba6996a.png)
 
