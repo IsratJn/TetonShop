@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="5" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-08T05:02:21 BDT" name="Suite" finished-at="2023-05-08T05:04:29 BDT" duration-ms="128129">
+    <groups>
+      <group name="fail">
+        <method signature="AssertTest.loginErrorValidation(java.util.HashMap)[pri:0, instance:israt.tests.AssertTest@7e6ef134]" name="loginErrorValidation" class="israt.tests.AssertTest"/>
+        <method signature="AssertTest.wrongProdAdd(java.util.HashMap)[pri:0, instance:israt.tests.AssertTest@7e6ef134]" name="wrongProdAdd" class="israt.tests.AssertTest"/>
+      </group> <!-- fail -->
+    </groups>
+    <test started-at="2023-05-08T05:02:21 BDT" name="Error Validation Test" finished-at="2023-05-08T05:04:29 BDT" duration-ms="128129">
+      <class name="israt.tests.AssertTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:02:21 BDT" name="launchApplication" finished-at="2023-05-08T05:02:30 BDT" duration-ms="8524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProdAdd(java.util.HashMap)[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:02:30 BDT" name="ProdAdd" data-provider="getData" finished-at="2023-05-08T05:02:42 BDT" duration-ms="12124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{area=Dhanmondi, wrongpass=amitoha, product=Track Extension Pack, address=Chayabithi, division=Dhaka, zipcode=1113, password=amitoha, phone=01987654123, district=Dhaka, wrongprod=Car Red, wrongemail=toha88@gmail.com, email=toha889@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProdAdd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:02:42 BDT" name="tearDown" finished-at="2023-05-08T05:02:42 BDT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:02:42 BDT" name="launchApplication" finished-at="2023-05-08T05:02:50 BDT" duration-ms="8041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProdAdd(java.util.HashMap)[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:02:50 BDT" name="ProdAdd" data-provider="getData" finished-at="2023-05-08T05:03:02 BDT" duration-ms="12353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{area=Bhola Sadar, wrongpass=amitoa, product=Steam Train, address=Sardar House, wrongProd=Car Red Blue, division=Barisal, zipcode=1212, password=amiadam, phone=01987657623, district=Bhola, wrongemail=toha889@gmail.com, email=adam78@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProdAdd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:02 BDT" name="tearDown" finished-at="2023-05-08T05:03:02 BDT" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:02 BDT" name="launchApplication" finished-at="2023-05-08T05:03:10 BDT" duration-ms="7139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation(java.util.HashMap)[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:10 BDT" name="loginErrorValidation" data-provider="getData" finished-at="2023-05-08T05:03:14 BDT" duration-ms="4512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{area=Dhanmondi, wrongpass=amitoha, product=Track Extension Pack, address=Chayabithi, division=Dhaka, zipcode=1113, password=amitoha, phone=01987654123, district=Dhaka, wrongprod=Car Red, wrongemail=toha88@gmail.com, email=toha889@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:14 BDT" name="tearDown" finished-at="2023-05-08T05:03:14 BDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:14 BDT" name="launchApplication" finished-at="2023-05-08T05:03:22 BDT" duration-ms="7410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation(java.util.HashMap)[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:22 BDT" name="loginErrorValidation" data-provider="getData" finished-at="2023-05-08T05:03:26 BDT" duration-ms="4675" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{area=Bhola Sadar, wrongpass=amitoa, product=Steam Train, address=Sardar House, wrongProd=Car Red Blue, division=Barisal, zipcode=1212, password=amiadam, phone=01987657623, district=Bhola, wrongemail=toha889@gmail.com, email=adam78@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [This is wrong password] but found [This email is not registered]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [This is wrong password] but found [This email is not registered]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at israt.tests.AssertTest.loginErrorValidation(AssertTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:26 BDT" name="tearDown" finished-at="2023-05-08T05:03:27 BDT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:27 BDT" name="launchApplication" finished-at="2023-05-08T05:03:34 BDT" duration-ms="7131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginSuccess(java.util.HashMap)[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:34 BDT" name="loginSuccess" data-provider="getData" finished-at="2023-05-08T05:03:41 BDT" duration-ms="7739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{area=Dhanmondi, wrongpass=amitoha, product=Track Extension Pack, address=Chayabithi, division=Dhaka, zipcode=1113, password=amitoha, phone=01987654123, district=Dhaka, wrongprod=Car Red, wrongemail=toha88@gmail.com, email=toha889@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:41 BDT" name="tearDown" finished-at="2023-05-08T05:03:42 BDT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:42 BDT" name="launchApplication" finished-at="2023-05-08T05:03:49 BDT" duration-ms="7634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginSuccess(java.util.HashMap)[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:49 BDT" name="loginSuccess" data-provider="getData" finished-at="2023-05-08T05:03:57 BDT" duration-ms="7522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{area=Bhola Sadar, wrongpass=amitoa, product=Steam Train, address=Sardar House, wrongProd=Car Red Blue, division=Barisal, zipcode=1212, password=amiadam, phone=01987657623, district=Bhola, wrongemail=toha889@gmail.com, email=adam78@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:57 BDT" name="tearDown" finished-at="2023-05-08T05:03:57 BDT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:03:57 BDT" name="launchApplication" finished-at="2023-05-08T05:04:04 BDT" duration-ms="7467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="wrongProdAdd(java.util.HashMap)[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:04:04 BDT" name="wrongProdAdd" data-provider="getData" finished-at="2023-05-08T05:04:12 BDT" duration-ms="7599" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{area=Dhanmondi, wrongpass=amitoha, product=Track Extension Pack, address=Chayabithi, division=Dhaka, zipcode=1113, password=amitoha, phone=01987654123, district=Dhaka, wrongprod=Car Red, wrongemail=toha88@gmail.com, email=toha889@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at israt.PageObjectModel.ProductCatalogue.addProductToCart(ProductCatalogue.java:60)
+at israt.tests.AssertTest.wrongProdAdd(AssertTest.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongProdAdd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:04:12 BDT" name="tearDown" finished-at="2023-05-08T05:04:12 BDT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:04:12 BDT" name="launchApplication" finished-at="2023-05-08T05:04:21 BDT" duration-ms="8433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="wrongProdAdd(java.util.HashMap)[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:04:21 BDT" name="wrongProdAdd" data-provider="getData" finished-at="2023-05-08T05:04:29 BDT" duration-ms="8041" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{area=Bhola Sadar, wrongpass=amitoa, product=Steam Train, address=Sardar House, wrongProd=Car Red Blue, division=Barisal, zipcode=1212, password=amiadam, phone=01987657623, district=Bhola, wrongemail=toha889@gmail.com, email=adam78@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at israt.PageObjectModel.ProductCatalogue.addProductToCart(ProductCatalogue.java:60)
+at israt.tests.AssertTest.wrongProdAdd(AssertTest.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongProdAdd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:israt.tests.AssertTest@7e6ef134]" started-at="2023-05-08T05:04:29 BDT" name="tearDown" finished-at="2023-05-08T05:04:29 BDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- israt.tests.AssertTest -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,33 @@
+[
+{
+  "email" : "toha889@gmail.com",
+  "password": "amitoha",
+  "product" : "Track Extension Pack",
+   "division": "Dhaka",
+   "district" : "Dhaka",
+   "area" : "Dhanmondi",
+   "address": "Chayabithi",
+   "phone" : "01987654123",
+    "zipcode": "1113",
+    "wrongemail" : "toha88@gmail.com",
+    "wrongpass" : "amitoha",
+    "wrongprod" : "Car Red"
+    
+},
+{
+    "email" : "adam78@gmail.com",
+    "password": "amiadam",
+    "product" : "Steam Train",
+    "division": "Barisal",
+    "district" : "Bhola",
+    "area" : "Bhola Sadar",
+     "address": "Sardar House",
+   "phone" : "01987657623",
+    "zipcode": "1212",
+    "wrongemail" : "toha889@gmail.com",
+    "wrongpass" : "amitoa",
+    "wrongProd" : "Car Red Blue"
+    
+}
+
+]
